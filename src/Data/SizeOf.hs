@@ -6,7 +6,6 @@ module Data.SizeOf
   ( SizeOf
   ) where
 
-import Data.Functor.Identity
 import Data.SizeOf.Internals
 import Foreign
 import Foreign.C
