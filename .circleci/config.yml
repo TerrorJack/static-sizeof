@@ -1,0 +1,8 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: terrorjack/vanilla:haskell
+    steps:
+      - checkout
+      - run: stack --nix --no-terminal build --haddock
